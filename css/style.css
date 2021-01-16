@@ -293,4 +293,13 @@ ul {
       text-align: center;  
     
     }
+
+    .latest-posts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 30px;
+    }
 }
