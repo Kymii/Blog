@@ -288,7 +288,8 @@ ul {
        margin: auto;
     }
 
-    #latest-content {
+    #latest-content,
+    .latest-header {
       text-align: center;  
     
     }
