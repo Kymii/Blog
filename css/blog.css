@@ -1,0 +1,33 @@
+.blog-posts {
+    margin: 20px 10px 10px 10px;
+}
+
+#calendar-icon {
+    opacity: 0.2;
+    color: var(--links);
+    margin-right: 10px;
+}
+
+.post-sub-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    opacity: 0.5;
+}
+
+.blog-posts .category {
+    margin: auto;
+    width: 55px;
+    margin-top: 20px;
+}
+
+.main-post-img {
+    width: 95%;
+    margin: 10px;
+    border-radius: 10%;  
+}
+
+.post-text {
+    margin: 10px;
+}
