@@ -43,13 +43,31 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
+
+    .blog-posts {
+        margin: 100px;
+    }
+
+    .post-sub-text {
+        justify-content: space-evenly;
+    }
 
     .blog-posts .category {
         width: 80px;
     }
 
     .post-text {
-        margin: 20px 90px;
+        margin: 20px 300px;
+    }
+
+    .main-post-img {
+        width: 60%;
+        margin: 10px;
+        border-radius: 10%;  
+    }
+
+    .post-img {
+        text-align: center;
     }
 }
