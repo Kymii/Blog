@@ -142,3 +142,24 @@ ul {
     color: var(--links);
     margin-right: 10px;
 }
+
+/* footer section  */
+
+#footer {
+    background-color: var(--links);
+    margin-top: 50px;
+    text-align: center;
+    height: 100px;
+}
+
+.footer-main-links {
+    color: white;
+    margin: 0px 20px;
+    font-size: 20px;
+}
+
+.footer-nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
