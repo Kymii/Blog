@@ -48,7 +48,7 @@ ul {
 .featured {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 200px repeat(3, 100px) 200px;
+    grid-template-rows: 200px repeat(4, 100px) 200px;
     justify-content: center;
     grid-gap: 10px;
     margin-top: 20px;
