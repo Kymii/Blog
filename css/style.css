@@ -52,50 +52,37 @@ ul {
     margin-top: 20px;
 }
 
-
-.feature-article-1 {
-    background-image: url(../images/life.jpg);
-    background-repeat: no-repeat;
+#ft-content {
     width: 80%;
     height: 100%;
     margin: auto;
     border-radius: 5%;
+}
+
+
+.feature-article-1 {
+    background-image: url(../images/life.jpg);
+    background-repeat: no-repeat;
 }
 
 .feature-article-2 {
     background-image: url(../images/cheese.jpg);
     background-repeat: no-repeat;
-    width: 80%;
-    height: 100%;
-    margin: auto;
-    border-radius: 5%;
 }
 
 .feature-article-3 {
     background-image: url(../images/breakfast.jpg);
     background-repeat: no-repeat;
-    width: 80%;
-    height: 100%;
-    margin: auto;
-    border-radius: 5%;
 }
 
 .feature-article-4 {
     background-image: url(../images/beach.jpg);
     background-repeat: no-repeat;
-    width: 80%;
-    height: 100%;
-    margin: auto;
-    border-radius: 5%;
 }
 
 .feature-article-5 {
     background-image: url(../images/bacon.jpg);
     background-repeat: no-repeat;
-    width: 80%;
-    height: 100%;
-    margin: auto;
-    border-radius: 5%;
 }
 
 .article-info-large {
@@ -111,3 +98,23 @@ ul {
     left: 20px;
     color: var(--links);
 }
+
+/* latest posts section  */
+
+.latest-posts {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.latest-img {
+    width: 300px;
+    height: 200px;
+}
+
+.latest-title {
+    margin: 40px;
+}
+
