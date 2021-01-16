@@ -5,3 +5,20 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --links: #F57513;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--links);
+}
+
+ul {
+    list-style: none;
+}
