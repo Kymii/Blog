@@ -14,3 +14,14 @@
     width: 50px;
     height: 20px;
 }
+
+.sign-up {
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+
+    .about {
+        margin: 20px 250px;
+    }
+}

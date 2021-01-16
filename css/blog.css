@@ -28,6 +28,28 @@
     border-radius: 10%;  
 }
 
+.post-title {
+    text-align: center;
+}
+
 .post-text {
     margin: 10px;
+}
+
+@media (min-width: 768px) {
+
+    .blog-posts .category {
+        width: 70px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .blog-posts .category {
+        width: 80px;
+    }
+
+    .post-text {
+        margin: 20px 90px;
+    }
 }
