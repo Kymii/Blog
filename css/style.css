@@ -107,14 +107,22 @@ ul {
     grid-template-rows: auto;
     justify-content: center;
     align-items: center;
+    grid-gap: 30px;
 }
 
 .latest-img {
     width: 300px;
     height: 200px;
+    border-radius: 5%;
 }
 
-.latest-title {
+.latest-header {
     margin: 40px;
+}
+
+#latest-content {
+    width: 80%;
+    height: 100%;
+    margin: auto;
 }
 
