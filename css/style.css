@@ -126,3 +126,19 @@ ul {
     margin: auto;
 }
 
+.latest-summary {
+    opacity: 0.5;
+}
+
+.category {
+    background-color: var(--links);
+    border-radius: 10%;
+    width: 15%;
+    color: white;
+}
+
+#author-icon {
+    opacity: 0.2;
+    color: var(--links);
+    margin-right: 10px;
+}
