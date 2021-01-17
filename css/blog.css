@@ -1,5 +1,5 @@
 .blog-posts {
-    margin: 20px 10px 10px 10px;
+    margin: 20px 5px 10px 5px;
 }
 
 #calendar-icon {
@@ -32,14 +32,25 @@
     text-align: center;
 }
 
-.post-text {
-    margin: 10px;
-}
+
 
 @media (min-width: 768px) {
 
     .blog-posts .category {
         width: 70px;
+    }
+
+    .post-text {
+        margin: 20px 50px;
+    }
+
+    .main-post-img {
+        width: 70%;
+        margin: 10px;
+    }
+
+    .post-img{
+        text-align: center;
     }
 }
 
@@ -58,13 +69,12 @@
     }
 
     .post-text {
-        margin: 20px 400px;
+        margin: 20px 100px;
     }
 
     .main-post-img {
-        width: 50%;
-        margin: 10px;
-        border-radius: 10%;  
+        width: 70%;
+        margin: 10px; 
     }
 
     .post-img {

@@ -19,9 +19,16 @@
     text-align: center;
 }
 
+p {
+    width: 80%;
+    margin: auto;
+}
+
+
 @media (min-width: 1024px) {
+
     .about {
-        margin: 150px 500px;
+        margin: 150px 200px;
         height: 80vh;
     }
 
