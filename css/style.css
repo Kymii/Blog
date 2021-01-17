@@ -9,7 +9,7 @@
 }
 
 :root {
-    --links: #F57513;
+    --orange: #F57513;
 }
 
 body {
@@ -20,7 +20,7 @@ body {
 
 a {
     text-decoration: none;
-    color: var(--links);
+    color: var(--orange);
 }
 
 ul {
@@ -98,14 +98,14 @@ ul {
     position: relative;
     top: 100px;
     left: 20px;
-    color: var(--links);
+    color: var(--orange);
 }
 
 .article-info-small {
     position: relative;
     top: 20px;
     left: 20px;
-    color: var(--links);
+    color: var(--orange);
 }
 
 /* latest posts section  */
@@ -140,7 +140,7 @@ ul {
 }
 
 .category {
-    background-color: var(--links);
+    background-color: var(--orange);
     border-radius: 10%;
     width: 55px;
     color: white;
@@ -148,14 +148,14 @@ ul {
 
 #author-icon {
     opacity: 0.2;
-    color: var(--links);
+    color: var(--orange);
     margin-right: 10px;
 }
 
 /* footer section  */
 
 #footer {
-    background-color: var(--links);
+    background-color: var(--orange);
     margin-top: 50px;
     text-align: center;
     height: 100px;
