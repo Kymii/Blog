@@ -20,8 +20,11 @@
 }
 
 @media (min-width: 1024px) {
-
     .about {
         margin: 20px 450px;
+    }
+
+    #footer {
+        height: 100%;
     }
 }
