@@ -21,7 +21,8 @@
 
 @media (min-width: 1024px) {
     .about {
-        margin: 20px 450px;
+        margin: 150px 500px;
+        height: 80vh;
     }
 
     #footer {
