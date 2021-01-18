@@ -60,8 +60,21 @@ ul {
     height: 100%;
     margin: auto;
     border-radius: 5%;
+    position: relative;
 }
 
+a.link-image {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    opacity: 0;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+a.link-image:hover {
+    background-color: gray;
+    opacity: 0.12;
+}
 
 .feature-article-1 {
     background-image: url(../images/life.jpg);
@@ -149,6 +162,10 @@ ul {
     opacity: 0.2;
     color: var(--orange);
     margin-right: 10px;
+}
+
+.latest-links {
+    color: black;
 }
 
 /* footer section  */
