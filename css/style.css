@@ -9,7 +9,7 @@
 }
 
 :root {
-    --orange: #F57513;
+    --orange: #693216;
 }
 
 body {
@@ -66,14 +66,15 @@ ul {
 a.link-image {
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
-    opacity: 0;
+    opacity: .2;
     cursor: pointer;
     border-radius: 5%;
+    background-color: grey;
 }
 
 a.link-image:hover {
     background-color: gray;
-    opacity: 0.12;
+    opacity: 0.5;
 }
 
 .feature-article-1 {
