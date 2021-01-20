@@ -150,6 +150,10 @@ a.link-image:hover {
     border-radius: 5%;
 }
 
+.latest-img:hover {
+    opacity: 0.5;
+}
+
 .latest-header {
     margin: 45px 0px 45px 50px;
 }
