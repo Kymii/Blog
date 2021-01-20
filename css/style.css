@@ -77,6 +77,11 @@ ul {
     cursor: pointer;
 }
 
+.sub:hover {
+    color: var(white);
+    background-color:  #a5532b;
+}
+
 
 /* featured section  */
 .featured {
