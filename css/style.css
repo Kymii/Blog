@@ -158,6 +158,10 @@ a.link-image:hover {
     margin: 45px 0px 45px 50px;
 }
 
+.latest-title:hover {
+    color: #a5532b;
+}
+
 #latest-content {
     width: 80%;
     height: 100%;
