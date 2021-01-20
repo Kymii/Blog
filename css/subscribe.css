@@ -1,0 +1,14 @@
+.main-bg {
+    background-color: var(--orange);
+    width: 90%;
+    height: 100%;
+    position: relative;
+    top: 20px;
+    display: flex;
+    margin: auto;
+    color: white;
+}
+
+.main-bg h2 {
+    padding: 10px;
+}
