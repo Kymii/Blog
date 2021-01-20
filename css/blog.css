@@ -10,7 +10,7 @@
 
 .post-sub-text {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 10px;
     opacity: 0.5;
@@ -22,12 +22,17 @@
     margin-top: 20px;
 }
 
+.post-text {
+    margin-left: 25px;
+}
+
 .main-post-img {
-    width: 50%;
+    width: 70%;
     margin: 10px;
     border-radius: 10%;  
 }
 
+.post-img,
 .post-title {
     text-align: center;
 }
@@ -42,11 +47,6 @@
 
     .post-text {
         margin: 20px 50px;
-    }
-
-    .main-post-img {
-        width: 70%;
-        margin: 10px;
     }
 
     .post-img{
@@ -68,14 +68,17 @@
         width: 80px;
     }
 
-    .post-text {
-        margin: 20px 100px;
-    }
-
     .main-post-img {
-        margin: 10px; 
+        width: 55%;
     }
 
+    .post-text {
+        text-align: justify;
+        width: 70%;
+        margin: auto;
+    }
+
+    .post,
     .post-img {
         text-align: center;
     }
