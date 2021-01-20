@@ -60,16 +60,40 @@ label {
     margin-top: 10px;
 }
 
+.s-btn:hover {
+    background-color: #a5532b;
+}
+
 .sub-image {
  text-align: center;
 }
 
-.form-name {
+.form-name,
+.form-email,
+.form-dob {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .subscribe-image {
     width: 350px;
+}
+
+
+@media (min-width:1024px) {
+
+    .main-bg {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .subscribe-image {
+        width: 500px;
+        height: 450px;
+    }
 }
 
