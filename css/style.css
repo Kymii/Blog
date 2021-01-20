@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
 @import url(about.css);
 @import url(blog.css);
+@import url(menu.css);
 
 * {
     padding: 0;
@@ -26,6 +27,14 @@ ul {
     list-style: none;
 }
 
+.mobile {
+    visibility: visible;
+}
+
+.desktop {
+    visibility: hidden;
+}
+
 
 /* navigation style  */
 .nav-main {
@@ -47,6 +56,10 @@ ul {
 
 .main-links:hover {
     color: #a5532b;
+}
+
+.logo {
+    margin: auto;
 }
 
 
@@ -281,6 +294,14 @@ a.link-image:hover {
 
     body {
         font-size: 24px;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        visibility: visible;
     }
 
     .main-links {
