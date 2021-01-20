@@ -1,14 +1,75 @@
 .main-bg {
-    background-color: var(--orange);
     width: 90%;
     height: 100%;
     position: relative;
     top: 20px;
     display: flex;
+    flex-direction: column;
     margin: auto;
     color: white;
 }
 
+.join {
+    color: var(--orange);
+}
+
+.left, 
+.right {
+    padding: 50px;
+}
+
 .main-bg h2 {
     padding: 10px;
+    text-align: center;
 }
+
+.sub-form {
+    text-align: center;
+}
+
+.sub-form input {
+    margin: 10px;
+    font-size: 16px;
+}
+
+label {
+    font-size: 24px;
+}
+
+.long,
+.short {
+    width: 350px;
+    height: 40px;
+    margin: auto;
+}
+
+
+.form-gender {
+    text-align: center;
+    color: var(--orange);
+}
+
+.s-btn {
+    width: 350px;
+    height: 50px;
+    font-size: 32px;
+    background-color: var(--orange);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.sub-image {
+ text-align: center;
+}
+
+.form-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-image {
+    width: 350px;
+}
+

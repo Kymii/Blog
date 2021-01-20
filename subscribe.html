@@ -52,17 +52,30 @@
             <div class="left">
                 <h2 class="join">Join our mailing list!</h2>
                 <div class="sub-form">
-                    <input type="email" name="email" placeholder="Email Address">
-                    <input type="text" name="FirstName" placeholder="First Name">
-                    <input type="text" name="lastName" placeholder="Last Name">
-                    <input type="date" name="DOB" placeholder="Date od Birth(MM/DD/YY)">
-                    <input type="radio" name="gender">
+                    <div class="form-email">
+                        <input class="long" type="email" name="email" placeholder="Email Address">
+                    </div>
+                    <div class="form-name">
+                        <input class="short" type="text" name="FirstName" placeholder="First Name">
+                        <input class="short" type="text" name="lastName" placeholder="Last Name">
+                    </div>
+                    <div class="form-dob">
+                        <input class="long" type="date" name="DOB" placeholder="Date of Birth(MM/DD/YY)">
+                    </div>
+                    <div class="form-gender">
+                        <input type="radio" name="genderF">
+                        <label for="gender">Female</label>
+                        <input type="radio" name="genderM">
+                        <label for="gender">Male</label>
+                    </div>
+                    <div class="sign-up-btn">
+                        <button class="s-btn"type="submit">Subscribe</button>
+                    </div>
                 </div>
-
             </div>
             <div class="right">
                 <div class="sub-image">
-
+                    <img class="subscribe-image" src="./images/sub.jpg" alt="subscribe image">
                 </div>
             </div>
         </div>
