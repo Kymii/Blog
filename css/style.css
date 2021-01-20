@@ -2,6 +2,7 @@
 @import url(about.css);
 @import url(blog.css);
 @import url(menu.css);
+@import url(subscribe.css);
 
 * {
     padding: 0;
@@ -59,7 +60,7 @@ ul {
 }
 
 .logo {
-    margin: 0px 0px 0px 50px;
+    margin: 0px 0px 0px 70px;
 }
 
 .sub-btn {
