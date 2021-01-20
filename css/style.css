@@ -42,11 +42,11 @@ ul {
 
 .main-links {
     padding: 10px;
+    transition: all .5s;
 }
 
 .main-links:hover {
     color: #a5532b;
-    transform: scale(1, 2);
 }
 
 
@@ -151,7 +151,7 @@ a.link-image:hover {
 }
 
 .latest-header {
-    margin: 45px 0px 20px 50px;
+    margin: 45px 0px 45px 50px;
 }
 
 #latest-content {
