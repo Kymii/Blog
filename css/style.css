@@ -124,7 +124,7 @@ a.link-image:hover {
 .feature-title,
 .feature-author {
     background-color: white;
-    padding-left: 10px;
+    padding: 0px 0px 5px 5px;
 }
 
 
@@ -160,10 +160,13 @@ a.link-image:hover {
 }
 
 .category {
+    color: white;
+}
+
+.category-bg{
     background-color: var(--orange);
     border-radius: 10%;
-    width: 55px;
-    color: white;
+    padding: 2px;
 }
 
 #author-icon {
