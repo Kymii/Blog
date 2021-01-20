@@ -121,6 +121,13 @@ a.link-image:hover {
     color: var(--orange);
 }
 
+.feature-title,
+.feature-author {
+    background-color: white;
+    padding-left: 10px;
+}
+
+
 /* latest posts section  */
 
 .latest-posts {
