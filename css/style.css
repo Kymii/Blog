@@ -214,6 +214,7 @@ a.link-image:hover {
     background-color: var(--orange);
     border-radius: 10%;
     padding: 2px;
+    color: white;
 }
 
 #author-icon {
@@ -222,8 +223,7 @@ a.link-image:hover {
     margin-right: 10px;
 }
 
-.latest-links,
-.logo-link {
+.latest-links {
     color: black;
 }
 
@@ -246,6 +246,10 @@ a.link-image:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.logo-link {
+    color: white;
 }
 
 /* media query for tablets  */
@@ -297,19 +301,19 @@ a.link-image:hover {
        grid-area: a6;
     }
 
-   #ft-content {
+    #ft-content {
        width: 100%;
-   }
+    }
 
-   .latest-img {
+    .latest-img {
     width: 500px;
     height: 300px;
     border-radius: 5%;
-   }
+    }
 
-   .category {
+    .category {
     width: 70px;
-   }
+    }
 
 }
 
