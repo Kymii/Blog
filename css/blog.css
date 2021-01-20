@@ -23,7 +23,7 @@
 }
 
 .main-post-img {
-    width: 95%;
+    width: 50%;
     margin: 10px;
     border-radius: 10%;  
 }
@@ -57,7 +57,7 @@
 @media (min-width: 1024px) {
 
     .blog-posts {
-        margin: 100px;
+        margin: 200px;
     }
 
     .post-sub-text {
@@ -73,7 +73,6 @@
     }
 
     .main-post-img {
-        width: 70%;
         margin: 10px; 
     }
 
