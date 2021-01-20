@@ -1,5 +1,5 @@
 .blog-posts {
-    margin: 20px 5px 10px 5px;
+    margin: 10px 5px 10px 5px;
 }
 
 #calendar-icon {
@@ -33,7 +33,8 @@
 }
 
 .post-img,
-.post-title {
+.post-title,
+.post-1 {
     text-align: center;
 }
 
@@ -57,7 +58,7 @@
 @media (min-width: 1024px) {
 
     .blog-posts {
-        margin: 200px;
+        margin: 100px;
     }
 
     .post-sub-text {

@@ -256,6 +256,10 @@ a.link-image:hover {
         font-size: 20px;
     }
 
+    .feature-title {
+        font-size: 20px;
+    }
+
     .featured {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -315,6 +319,10 @@ a.link-image:hover {
 
     body {
         font-size: 24px;
+    }
+
+    .feature-title {
+        font-size: 28px;
     }
 
     .mobile {
