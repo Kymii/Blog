@@ -10,10 +10,19 @@
 
 .post-sub-text {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin-top: 10px;
     opacity: 0.5;
+}
+
+.post-sub-text ul {
+    display: flex;
+}
+
+.post-sub-text ul li {
+    margin-right: 10px;
 }
 
 .blog-posts .category {
@@ -37,6 +46,7 @@
 .post-1 {
     text-align: center;
 }
+
 
 
 
