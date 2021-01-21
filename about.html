@@ -13,7 +13,7 @@
 
         <!-- mobile menu  -->
         <div class="menu-container mobile">
-            <input type="checkbox" class="toggler">
+            <input aria-label="menu" type="checkbox" class="toggler">
             <div class="hamburger"><div></div></div>
             <div class="menu">
               <div>
@@ -29,7 +29,7 @@
           </div>
 
         <!-- header  -->
-        <header class="nav-main">
+        <header role="banner" class="nav-main">
             <div class="logo">
                 <h1 class="logo-text">
                     <a class="logo-link" href="index.html"> Variety </a>
@@ -50,30 +50,32 @@
         </header>
         
         <!-- about section  -->
-        <section class="about">
-            <div class="about-content">
-                <h2 class="title">About</h2>
-                <p class="about-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat ut non nisi harum consectetur dignissimos, accusantium similique quidem modi. Facere, architecto accusantium. Expedita quae id nemo. Facere tempore laboriosam perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ipsam iusto, aliquid, a incidunt in quos dicta minima molestiae illo blanditiis adipisci autem nisi quidem libero impedit odio accusantium sint.</p>
-            </div>
-            <div class="contact-content">
-                <h2 class="title">Contact</h2>
-                <p class="contact-text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus maiores odio quasi provident. Deleniti aliquid reiciendis hic, ex quam odit vero possimus quaerat incidunt delectus veniam tenetur facere fuga architecto. contact@blogname.com
-                </p>
-            </div>
-            <div class="newsletter-content">
-                <h2 class="title">Newsletter</h2>
-                <p class="newsletter-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nobis fuga neque numquam dolore alias iusto! Ullam quasi ea nihil iure saepe nisi sed non enim culpa, officiis iusto ex.</p>
-                <div class="sign-up">
-                    <input type="email" name="email" placeholder="Email Address" class="email">
-                    <button class="email-btn" type="submit">Send</button>
+        <div role="main" class="main">
+            <section class="about">
+                <div class="about-content">
+                    <h2 class="title">About</h2>
+                    <p class="about-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat ut non nisi harum consectetur dignissimos, accusantium similique quidem modi. Facere, architecto accusantium. Expedita quae id nemo. Facere tempore laboriosam perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ipsam iusto, aliquid, a incidunt in quos dicta minima molestiae illo blanditiis adipisci autem nisi quidem libero impedit odio accusantium sint.</p>
                 </div>
-            </div>
-        </section>
+                <div class="contact-content">
+                    <h2 class="title">Contact</h2>
+                    <p class="contact-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus maiores odio quasi provident. Deleniti aliquid reiciendis hic, ex quam odit vero possimus quaerat incidunt delectus veniam tenetur facere fuga architecto. contact@blogname.com
+                    </p>
+                </div>
+                <div class="newsletter-content">
+                    <h2 class="title">Newsletter</h2>
+                    <p class="newsletter-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nobis fuga neque numquam dolore alias iusto! Ullam quasi ea nihil iure saepe nisi sed non enim culpa, officiis iusto ex.</p>
+                    <div class="sign-up">
+                        <input type="email" name="email" placeholder="Email Address" class="email">
+                        <button class="email-btn" type="submit">Send</button>
+                    </div>
+                </div>
+            </section>
+        </div>
 
 
         <!-- footer section  -->
-        <footer id="footer">
+        <footer role="contentinfo" id="footer">
             <div class="footer-logo">
                 <h2 class="footer-logo-text">
                     <a class="footer-link" href="index.html"> Variety </a>
