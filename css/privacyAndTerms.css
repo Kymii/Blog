@@ -4,14 +4,30 @@
 }
 
 .privacy h1,
-h2,
+.privacy h2,
+.terms h1,
+ h3 {
+    text-align: left;
+}
+
+.privacy ul,
+.terms ul {
+    margin-left: 100px;
+    list-style: square;
+}
+
+@media (min-width: 1024px) {
+
+.privacy ul,
+.terms ul {
+    margin-left: 400px;
+}
+
+.privacy h1,
+.privacy h2,
 .terms h1,
 h2, h3 {
     text-align: center;
 }
 
-.privacy ul,
-.terms ul {
-    margin-left: 400px;
-    list-style: square;
 }
