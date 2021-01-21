@@ -1,0 +1,13 @@
+.privacy {
+    margin: 40px;
+}
+
+.privacy h1,
+h2 {
+    text-align: center;
+}
+
+.privacy ul {
+    margin-left: 400px;
+    list-style: square;
+}
