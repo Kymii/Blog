@@ -1,13 +1,17 @@
-.privacy {
+.privacy,
+.terms {
     margin: 40px;
 }
 
 .privacy h1,
-h2 {
+h2,
+.terms h1,
+h2, h3 {
     text-align: center;
 }
 
-.privacy ul {
+.privacy ul,
+.terms ul {
     margin-left: 400px;
     list-style: square;
 }
