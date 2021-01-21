@@ -103,6 +103,11 @@ ul {
     position: relative;
 }
 
+#ft-content h2 {
+    font-size: 24px;
+    text-align: left;
+}
+
 a.link-image {
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
