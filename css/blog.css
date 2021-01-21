@@ -57,8 +57,29 @@
 
 @media (min-width: 1024px) {
 
+    .grid-container {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+
     .blog-posts {
         margin: 100px;
+    }
+
+    .post-1 {
+        grid-area: blog;
+    }
+
+    .sidebar-links {
+        margin-top: 200px;
+        grid-column-start: 2;
+        grid-row-start: 1;
+        grid-row-end: 15;
+        height: 100vh;
+    }
+
+    .sb {
+        position: fixed;
     }
 
     .post-sub-text {
