@@ -223,7 +223,7 @@ a.link-image:hover {
     color: white;
 }
 
-#author-icon {
+.author-icon {
     opacity: 0.2;
     color: var(--orange);
     margin-right: 10px;
