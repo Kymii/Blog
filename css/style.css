@@ -21,19 +21,19 @@ body {
 }
 
 h1 {
-    font-size: 40px;
-}
-
-h2 {
     font-size: 32px;
 }
 
+h2 {
+    font-size: 20px;
+}
+
 h3 {
-    font-size: 24px;
+    font-size: 18px;
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 a {
@@ -91,7 +91,7 @@ ul {
     border: none;
     width: 100px;
     height: 50px;
-    font-size: 20px;
+    font-size: 18px;
     cursor: pointer;
 }
 
@@ -120,7 +120,6 @@ ul {
 }
 
 #ft-content h2 {
-    font-size: 24px;
     text-align: left;
 }
 
@@ -262,7 +261,7 @@ a.link-image:hover {
 .footer-main-links {
     color: white;
     margin: 0px 20px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .footer-nav-list {
