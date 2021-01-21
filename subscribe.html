@@ -12,7 +12,7 @@
     <body>
         <!-- mobile menu  -->
         <div class="menu-container mobile">
-            <input type="checkbox" class="toggler">
+            <input aria-label="menu" type="checkbox" class="toggler">
             <div class="hamburger"><div></div></div>
             <div class="menu">
               <div>
@@ -28,11 +28,11 @@
           </div>
 
         <!-- Desktop menu  -->
-        <header class="nav-main">
+        <header class="nav-main" aria-label="header">
             <div class="logo">
-                <h2 class="logo-text">
+                <h1 class="logo-text">
                    <a class="logo-link" href="index.html"> Variety </a>
-                </h2>
+                </h1>
             </div>
             <div class="navbar desktop">
                 <nav class="nav">
@@ -48,7 +48,7 @@
             </div>
         </header>
 
-        <div class="main-bg">
+        <div class="main-bg" role="main">
             <div class="left">
                 <h2 class="join">Join our mailing list!</h2>
                 <div class="sub-form">
@@ -70,7 +70,7 @@
                             <label for="male">Male</label>
                         </div>
                         <div class="sign-up-btn">
-                            <a href="/index.html"><button class="s-btn" type="submit">Subscribe</button></a>
+                            <button class="s-btn" type="submit">Subscribe</button>
                         </div>
                     </form>
                 </div>
@@ -83,7 +83,7 @@
         </div>
 
 
-        <footer id="footer">
+        <footer role="contentinfo" id="footer">
             <div class="footer-logo">
                 <h2 class="footer-logo-text">
                     <a class="footer-link" href="index.html"> Variety </a>
