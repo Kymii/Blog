@@ -11,6 +11,7 @@ This project was very challenging but I learned alot of things along the way suc
 - Designing and coding the website are challenging. I coded 2 rough drafts before deciding on the third and final design. 
 - I realized design was my weakpoint.
 - I have a better understanding of flexbox and grid.
+- Mobile menu was a new experience, credit to https://www.youtube.com/watch?v=DZg6UfS5zYg for the tutorial/help in making without javascript.
 
 Even though I coded 2 other websites before deciding on the thrid this gave me alot of practice with getting started on a website from scratch.
 
