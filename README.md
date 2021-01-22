@@ -16,3 +16,5 @@ This project was very challenging but I learned alot of things along the way suc
 Even though I coded 2 other websites before deciding on the thrid this gave me alot of practice with getting started on a website from scratch.
 
 Overall, the experience was great because I was able to go from 0 to a complete full website, which is something that I had not done until now. My future goals will be to improve on things mentioned above, write cleaner code, learn frameworks and incorporate javascript.
+
+images from https://unsplash.com/
