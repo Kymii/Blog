@@ -9,8 +9,9 @@ This project was very challenging but I learned alot of things along the way suc
 - Need to improve on adding comments to code.
 - landmarking and aria-labels 
 - Designing and coding the website are challenging. I coded 2 rough drafts before deciding on the third and final design. 
-- I realized design was my weakpoint and solved the issue by finding inspiration from other sites.
+- I realized design was my weakpoint.
+- I have a better understanding of flexbox and grid.
 
-Even though I coded 2 other websites before deciding on the thrid this gave me alot of practice with getting started on a awebsite from scratch.
+Even though I coded 2 other websites before deciding on the thrid this gave me alot of practice with getting started on a website from scratch.
 
-Overall, the experience was great because I was able to go from 0 to a complete full website, which is something that I had not done until now. My future goals will be to write cleaner code, learn frameworks and incorporate javascript.
+Overall, the experience was great because I was able to go from 0 to a complete full website, which is something that I had not done until now. My future goals will be to improve on things mentioned above, write cleaner code, learn frameworks and incorporate javascript.
