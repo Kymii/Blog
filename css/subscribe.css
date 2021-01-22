@@ -50,7 +50,7 @@ label {
 }
 
 .s-btn {
-    width: 350px;
+    width: 300px;
     height: 50px;
     font-size: 32px;
     background-color: var(--orange);
@@ -64,13 +64,12 @@ label {
     background-color: #a5532b;
 }
 
-.sub-image {
-    text-align: center;
-}
 
 .form-name,
 .form-email,
-.form-dob {
+.form-dob, 
+.sub-image,
+.sign-up-btn {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,14 +77,9 @@ label {
 }
 
 .subscribe-image {
-    width: 350px;
+    width: 240px;
 }
 
-.subscribe-image,
-.sign-up-btn {
-    position: relative;
-    left: -45px;
-}
 
 
 @media (min-width:1024px) {
